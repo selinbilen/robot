@@ -8,14 +8,14 @@ Resource          agw.robot
 *** Test Cases ***
 Valid Login
     Open Browser To Login Page
-    Input Username  gyilmazdemir
-    Input Password    123qwe
+    Input Username  ********
+    Input Password    *******
     Submit Credentials
     Input Name   lollol
     Input Credentials  lololololol
     Submit 3
     Submit 3
     Input BaseUrl    http://management.blupoint.io/api
-    Input Username2   hyurtseven
-    Input Password2  123
+    Input Username2   ********
+    Input Password2  ********
     Input URL  healthcheck
